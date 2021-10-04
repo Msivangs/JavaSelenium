@@ -1,3 +1,4 @@
+package Interface;
 
 //classes should define and implement methods present in interface
 
