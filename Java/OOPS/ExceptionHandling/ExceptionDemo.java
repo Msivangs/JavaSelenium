@@ -5,7 +5,7 @@ public class ExceptionDemo {
 	// If I have three lines of code and I dont know there might be error or not in
 	// the code in this case we will use exception handling by try catch logic
 	// one try can be followed by multiple catch blocks
-	// catch should be an immediate catch block after try
+	// catch should be an immediate catch block after try block
 
 	public static void main(String[] args) {
 
@@ -37,6 +37,15 @@ public class ExceptionDemo {
 
 		catch (Exception e) {
 			System.out.println("I catched the error/exception");
+		}
+
+		// This block is executed irrespective of exception thrown or not
+		// If there is no catch block, but you have try and finally block in your code
+		// it will pass
+		finally {
+
+			System.out.println("Delete cookies");
+
 		}
 
 	}
