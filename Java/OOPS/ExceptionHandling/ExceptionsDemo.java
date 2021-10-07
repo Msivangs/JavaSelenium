@@ -1,6 +1,6 @@
 package ExceptionHandling;
 
-public class ExceptionDemo {
+public class ExceptionsDemo {
 
 	// If I have three lines of code and I dont know there might be error or not in
 	// the code in this case we will use exception handling by try catch logic
@@ -40,8 +40,7 @@ public class ExceptionDemo {
 		}
 
 		// This block is executed irrespective of exception thrown or not
-		// If there is no catch block, but you have try and finally block in your code
-		// it will pass
+		// If there is no catch block, but you have try and finally block existed in your code it will pass.
 		finally {
 
 			System.out.println("Delete cookies");
