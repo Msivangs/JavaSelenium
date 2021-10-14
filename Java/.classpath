@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="OOPS"/>
 	<classpathentry kind="src" path="Collections"/>
+	<classpathentry kind="src" path="fullCourse"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
