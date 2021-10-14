@@ -2,7 +2,7 @@
 public class FirstProgram {
 	
 	
-	public void age() {
+	public void methods() {
 		int a = 10;
 		String s="method";
 		boolean b = true;
@@ -17,7 +17,7 @@ public class FirstProgram {
 		// TODO Auto-generated method stub
     
 		FirstProgram fp=new FirstProgram();
-		fp.age();
+		fp.methods();
 		
 	}
 
